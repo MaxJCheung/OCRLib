@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
-package com.baidu.ocr.demo;
+package com.baidu.recognize;
 
 import android.content.Context;
 
@@ -26,7 +26,7 @@ import java.io.File;
 
 public class RecognizeService {
 
-    interface ServiceListener {
+    public interface ServiceListener {
         public void onResult(String result);
     }
 

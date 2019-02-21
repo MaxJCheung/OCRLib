@@ -8,6 +8,7 @@ import com.baidu.ocr.sdk.OnResultListener;
 import com.baidu.ocr.sdk.exception.OCRError;
 import com.baidu.ocr.sdk.model.AccessToken;
 import com.baidu.ocr.ui.camera.CameraActivity;
+import com.baidu.recognize.RecognizeService;
 
 import android.app.Activity;
 import android.content.Intent;
